@@ -3,7 +3,7 @@
     Author:  M. Heidenreich, (c) 2024
 
     Description: This code is provided in support of the following YouTube tutorial:
-
+                    https://www.youtube.com/watch?v=Sf2ow0Ugwcw
 
     This file is low-level support code for the rgb-sandbox.py program.
 
