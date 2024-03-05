@@ -26,11 +26,6 @@ def safe_exit(signum, frame):
     exit(1)
 
 
-def compensate(input):
-    for original in input.values:
-        yield tuple(value ** 2 for value in original)
-
-
 def main(stdscr):
     my_led = RGBLED(13, 19, 26)  # Common cathode
     # my_led = RGBLED(13, 19, 26, active_high=False)  # Common anode
